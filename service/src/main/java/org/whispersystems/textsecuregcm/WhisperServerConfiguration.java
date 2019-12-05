@@ -137,12 +137,12 @@ public class WhisperServerConfiguration extends Configuration {
   private ApnConfiguration apn;
 
   @Valid
-  @Null
+  @NotNull
   @JsonProperty
   private UnidentifiedDeliveryConfiguration unidentifiedDelivery;
 
   @Valid
-  @Null
+  @NotNull
   @JsonProperty
   private VoiceVerificationConfiguration voiceVerification;
 

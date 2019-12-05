@@ -142,7 +142,7 @@ public class WhisperServerConfiguration extends Configuration {
   private UnidentifiedDeliveryConfiguration unidentifiedDelivery;
 
   @Valid
-  @NotNull
+  @Null
   @JsonProperty
   private VoiceVerificationConfiguration voiceVerification;
 
